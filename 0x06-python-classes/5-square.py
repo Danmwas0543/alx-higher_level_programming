@@ -29,12 +29,12 @@ class Square:
 
     def area(self):
         """Calculate and return the square's area."""
-        return (self.__faith * self.__faith)  # Local variable changed to __faith
+        return (self.__faith * self.__faith)
 
     def my_print(self):
         """Display the square using the # character."""
-        for danu in range(0, self.__faith):  # Local variable changed to danu
-            [print("#", end="") for mugo in range(self.__faith)]  # Local variables changed to danu and mugo
+        for danu in range(0, self.__faith):
+            [print("#", end="") for mugo in range(self.__faith)]
             print("")
-        if self.__faith == 0:  # Local variable changed to __faith
+        if self.__faith == 0:  
             print("")

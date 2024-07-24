@@ -36,5 +36,5 @@ class Square:
         for danu in range(0, self.__faith):
             [print("#", end="") for mugo in range(self.__faith)]
             print("")
-        if self.__faith == 0:  
+        if self.__faith == 0:
             print("")
